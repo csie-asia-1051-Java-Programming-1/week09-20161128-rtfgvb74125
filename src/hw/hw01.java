@@ -19,12 +19,12 @@ public class hw01 {
 	}
 
 	public static void fun(int n) {
-		int sum = 0;
 		int count = 0;
 		String str = "";
 		for (int i = 1; i < n; i++) {
-			sum = 0;
+			
 			str = "" + i;
+			int sum = 0;
 			int j = i;
 			while (sum < n) {
 				sum = sum + j;
